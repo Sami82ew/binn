@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Biniam Biru</title>
+  <link rel="stylesheet" href="css/newstyle.css" />
+  <!-- Add Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    /* Additional styles for new contact buttons */
+    
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="education.html">Education</a>
+      <a href="skill.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="contacts.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h2 style="text-align: center; font-size: 50px; font-family: 'Times New Roman', Times, serif;">Contact Me</h2>
+    <br>
+    <p style=" padding:20px; width: 22; text-decoration: none; font-size: 18px; color: black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: larger;">
+      <strong >Hey every one  this is my contact page </strong>
+       Feel free to reach out if you have any questions, collaboration ideas, or opportunities
+       <strong> contact me at any time by the listed  option</strong>
+
+    </p>
+
+    <div class="contact-container">
+      <div class="contact-info">
+                     <h3 style="font-size: 24px; padding: 18px;">Get in Touch by listed option</h3>
+                     <center>
+        <p><strong>Phone:</strong> <a href=" +251 982447543" target ="_blank">+251 982447543</a></p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/251982447543?text=Hello%20Biniam,%20I%20found%20your%20portfolio..." target="_blank">
+  +251 982447543 </a></p>
+        <p><strong>Location:</strong> Sodo, Ethiopia</p>
+             </center>
+        
+        <!-- Contact Buttons -->
+        <div class="contact-buttons">
+          <a href="https://wa.me/251982447543" target="_blank" class="btn whatsapp">
+            <span class="btn-icon"><i class="fab fa-whatsapp"></i></span> WhatsApp
+          </a>
+          <a href="https://t.me/bnboy" target="_blank" class="btn telegram">
+            <span class="btn-icon"><i class="fab fa-telegram"></i></span> Telegram
+          </a>
+          <a href="mailto:
+</a>
+ 
+        
+        <!-- Contact Buttons -->
+        <div class="contact-buttons">
+          
+          <a href="mailto:bnboy3038@gmail.com" target="_blank" class="btn email">
+            <span class="btn-icon"><i class="fas fa-envelope"></i></span> Email
+          </a>
+          <a href="#" target="_blank" class="btn linkedin">
+            <span class="btn-icon"><i class="fab fa-linkedin"></i></span> LinkedIn
+          </a>
+          <a href="#" target="_blank" class="btn github">
+            <span class="btn-icon"><i class="fab fa-github"></i></span> GitHub
+          </a>
+        </div>
+        
+        <!-- Social Media Links with Font Awesome Icons -->
+        <div class="social-links">
+          <a href="#" class="social-icon facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="social-icon twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="social-icon instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="social-icon linkedin">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" class="social-icon github">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form" onsubmit="return validateForm()">
+        <h3>Send a Message</h3>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Your Name" required><br>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Your Email" required><br>
+        
+        <label for=" telegram"> Your telegram</label>
+        <input type="text" id="username" placeholder= "Your Username" required>
+        <div class="gender-options">
+
+       
+        <label> <strong>Sex/Gender:</strong> </label> 
+        
+          <input type="radio" name="gender" value="Male" required> Male </input>
+          <input type="radio" name="gender" value="Female" required> Female
+          <input type="radio" name="gender" value="Other" required> Other
+        </div>
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5"; placeholder="Write your message..." required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Biniam Biru. All Rights Reserved.</p>
+  </footer>
+  /*
+  <script>
+    // Function to validate contact form before submission
+     
+    function validateForm() {
+      const name = document.getElementById("name").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const message = document.getElementById("message").value.trim();
+
+      // Basic validation
+      if (name === "" || email === "" || message === "") {
+        alert("⚠️ Please fill in all fields before sending your message.");
+        return false; // stop form submission
+      }
+
+      // Email format validation
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailPattern.test(email)) {
+        alert("📧 Please enter a valid email address.");
+        return false;
+      }
+
+      // If everything is valid
+      alert("✅ Thank you, " + name + "! Your message has been sent successfully.");
+      return true; // allow form submission
+    }
+  </script> 
+   <!-- Link to external JavaScript file -->*/
+  <script src="js/script.js"></script>
+</body>
+</html>
